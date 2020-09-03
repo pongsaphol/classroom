@@ -1,0 +1,65 @@
+[
+  {
+    "className": "AP Physics C",
+    "time": "Monday, Wednesday and Friday 4 p.m. - 5 p.m.",
+    "link": "https://zoom.us/j/2684236132",
+    "class": [
+      {
+        "name": "Homepage",
+        "date": "",
+        "link": "/physics/home"
+      },
+      {
+        "name": "Week 1 - 1D motion",
+        "date": "2 - 4 August 2020",
+        "link": "/physics/1"
+      }
+    ]
+  },
+  {
+    "className": "Early World History",
+    "time": "Monday, Wednesday and Friday 7 p.m. - 8 p.m.",
+    "link": "https://zoom.us/j/5158296437?pwd=ZExBOW9KM3RLTyttZTVWalhvVjQ0QT09",
+    "class": [
+      {
+        "name": "Homepage",
+        "date": "",
+        "link": "/history/home"
+      },
+      {
+        "name": "Week 1 - Introduction",
+        "date": "2 - 4 August 2020",
+        "link": "/history/1"
+      }
+    ]
+  },
+  {
+    "className": "Literature and Writing",
+    "time": "Monday and Wednesday 9.30 p.m. - 10.30 p.m. and Friday 8 p.m. - 9 p.m.",
+    "link": "https://zoom.us/j/5158296437?pwd=ZExBOW9KM3RLTyttZTVWalhvVjQ0QT09",
+    "class": [
+      {
+        "name": "Homepage",
+        "date": "",
+        "link": "/literature/home"
+      },
+      {
+        "name": "Week 1 - Introduction",
+        "date": "2 - 4 August 2020",
+        "link": "/literature/1"
+      }
+    ]
+  },
+  {
+    "className": "Multivariable Calculus",
+    "time": "Asynchronous Time",
+    "link": "",
+    "class": [
+      {
+        "name": "Homepage",
+        "date": "",
+        "link": "/calculus/home"
+      }
+    ]
+  }
+]
