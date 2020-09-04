@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { Transition } from '@tailwindui/react'
-import intl from '../index.json'
 import { getString } from 'utils/getString'
 
-export const Nav = ({ url, children }) => {
+export const Nav = ({ url, children, intl }) => {
   const [show, setShow] = useState<boolean>(false)
   return (
     <React.Fragment>

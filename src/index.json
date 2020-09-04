@@ -1,54 +1,18 @@
 [
   {
     "className": "AP Physics C",
-    "class": [
-      {
-        "name": "Homepage",
-        "link": ["physics", "home"]
-      },
-      {
-        "name": "Week 1",
-        "link": ["physics", "1"]
-      }
-    ]
+    "path": "physics"
   },
   {
     "className": "Early World History",
-    "class": [
-      {
-        "name": "Homepage",
-        "link": ["history", "home"]
-      },
-      {
-        "name": "Week 1",
-        "link": ["history", "1"]
-      }
-    ]
+    "path": "history"
   },
   {
     "className": "Literature and Writing",
-    "class": [
-      {
-        "name": "Homepage",
-        "link": ["literature", "home"]
-      },
-      {
-        "name": "Vocabulary",
-        "link": ["literature", "vocabulary"]
-      },
-      {
-        "name": "Week 1",
-        "link": ["literature", "1"]
-      }
-    ]
+    "path": "literature"
   },
   {
     "className": "Multivariable Calculus",
-    "class": [
-      {
-        "name": "Homepage",
-        "link": ["calculus", "home"]
-      }
-    ]
+    "path": "calculus"
   }
 ]

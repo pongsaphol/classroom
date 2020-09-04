@@ -1,23 +1,31 @@
 import React from 'react'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import intl from '../index.json'
-import Head from 'next/head'
 import { renderMarkdown } from 'lib/renderMarkdown'
 import { getString } from 'utils/getString'
 import { getMarkdown } from 'lib/api'
 import { Nav } from 'components/Nav'
+import { generateIntl } from 'utils/generateIntl'
 
-const Pages = ({ url, html, className, name }) => {
+interface Data {
+  url: string[]
+  html: string
+  className: string
+  name: string
+  intl: Object
+}
+
+const Pages = (props: Data) => {
+  const { url, html, className, name, intl } = props
   if (url === [] || url === undefined) {
     return (
-      <Nav url={[]}>
+      <Nav url={[]} intl={intl}>
         <div></div>
       </Nav>
     )
   }
   return (
     <React.Fragment>
-      <Nav url={url}>
+      <Nav url={url} intl={intl}>
         <div className="pt-2 pb-6 md:py-6">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
             <h1 className="text-4xl font-semibold text-gray-900 text-center">
@@ -41,8 +49,8 @@ const Pages = ({ url, html, className, name }) => {
 export default Pages
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const intl = generateIntl()
   const ret = []
-
   intl.forEach((value) => {
     value.class.forEach((data) => {
       ret.push(data.link)
@@ -57,7 +65,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 }
 
+// From this, I will generate md list from getStaticProps
+
 export const getStaticProps: GetStaticProps = async ({ params: { id } }) => {
+  const intl = generateIntl()
   let className = '',
     name = ''
   intl.forEach((val) => {
@@ -79,9 +90,9 @@ export const getStaticProps: GetStaticProps = async ({ params: { id } }) => {
   }
   let markdown = ''
   try {
-    markdown = getMarkdown(getString(id as string[]))
+    markdown = getMarkdown(getString(id as string[])).content as string
   } catch {
-    markdown = getMarkdown(getString(['test']))
+    markdown = getMarkdown(getString(['test'])).content as string
   }
   const html = await renderMarkdown(markdown)
   return {
@@ -90,6 +101,7 @@ export const getStaticProps: GetStaticProps = async ({ params: { id } }) => {
       html,
       className,
       name,
+      intl,
     },
     revalidate: 60,
   }

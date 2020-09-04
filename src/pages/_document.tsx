@@ -29,6 +29,15 @@ export default class Document extends NextDocument {
             integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
             crossOrigin="anonymous"
           />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-title" content="Brewster" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="default"
+          />
+          <meta name="format-detection" content="telephone=no" />
+          <meta name="apple-touch-fullscreen" content="yes" />
+          <title>Brewster</title>
         </Head>
         <body>
           <Main />

@@ -1,3 +1,8 @@
+---
+title: 'Vocabulary'
+order: '100'
+---
+
 | #   | Word     | Part of Speech | Define\*                                                                                                                        | Write a Sentence                                                        | 3 Synonyms (same)\*                                    | 3 Antonyms (opposite)            |
 | --- | -------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------- |
 | 1.  | Abstract | adjective      | Exists only in the mind; not in reality                                                                                         | His project was abstract and did not have details or evidence.          | theoretical, conceptual, hypothetical                  | actual, concrete                 |
