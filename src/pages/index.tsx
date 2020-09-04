@@ -3,7 +3,7 @@ import Link from 'next/link'
 import intl from 'index.json'
 
 const Index = () => (
-  <div className="flex w-screen h-screen relative bg-gray-100 overflow-hidden justify-center items-center">
+  <div className="flex w-screen min-h-screen relative bg-gray-100 overflow-hidden justify-center items-center">
     <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
       <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
         <div className="text-center">
