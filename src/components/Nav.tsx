@@ -82,6 +82,7 @@ export const Nav = ({ url, children }) => {
                                 ? 'text-gray-900 bg-gray-100'
                                 : 'text-gray-600'
                             } rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150`}
+                            onClick={() => setShow(false)}
                           >
                             {classWeek.name}
                           </a>

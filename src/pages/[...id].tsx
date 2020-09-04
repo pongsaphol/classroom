@@ -27,7 +27,7 @@ const Pages = ({ url, html, className, name }) => {
               {name}
             </h1>
           </div>
-          <div className="flex max-w-5xl mx-auto px-4 sm:px-6 md:px-8 justify-center">
+          <div className="flex max-w-5xl mx-auto px-4 sm:px-6 md:px-8 justify-center overflow-x-scroll">
             <article className="prose lg:prose-lg">
               <div dangerouslySetInnerHTML={{ __html: html }}></div>
             </article>
