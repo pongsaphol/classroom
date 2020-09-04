@@ -7,7 +7,7 @@
         "link": ["physics", "home"]
       },
       {
-        "name": "Week 1 - 1D motion",
+        "name": "Week 1",
         "link": ["physics", "1"]
       }
     ]
@@ -20,7 +20,7 @@
         "link": ["history", "home"]
       },
       {
-        "name": "Week 1 - Introduction",
+        "name": "Week 1",
         "link": ["history", "1"]
       }
     ]
@@ -33,7 +33,11 @@
         "link": ["literature", "home"]
       },
       {
-        "name": "Week 1 - Introduction",
+        "name": "Vocabulary",
+        "link": ["literature", "vocabulary"]
+      },
+      {
+        "name": "Week 1",
         "link": ["literature", "1"]
       }
     ]

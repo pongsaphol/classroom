@@ -6,7 +6,6 @@ import { getString } from 'utils/getString'
 
 export const Nav = ({ url, children }) => {
   const [show, setShow] = useState<boolean>(false)
-  const [nstate, setNstate] = useState<boolean[]>([])
   return (
     <div className="h-screen flex overflow-hidden bg-gray-100">
       <div className="md:hidden">
@@ -69,44 +68,26 @@ export const Nav = ({ url, children }) => {
               <nav className="mt-5 px-2 space-y-1">
                 {intl.map((value, index) => (
                   <React.Fragment key={`${index}-fragment`}>
-                    <button
-                      className="mt-1 group w-full flex items-center pl-2 pr-1 py-2 text-md leading-5 font-medium rounded-md bg-white text-gray-600 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150"
-                      onClick={() => {
-                        const newState = [...nstate]
-                        newState[index] = !newState[index]
-                        setNstate(newState)
-                      }}
-                    >
+                    <a className="mt-1 group w-full flex items-center pl-2 pr-1 py-2 text-md leading-5 font-medium rounded-md bg-white text-gray-600 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150">
                       {value.className}
-                      <svg
-                        className={`${
-                          nstate[index]
-                            ? 'text-gray-400 rotate-90'
-                            : 'text-gray-300'
-                        } ml-auto h-5 w-5 transform group-hover:text-gray-400 group-focus:text-gray-400 transition-colors ease-in-out duration-150`}
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M6 6L14 10L6 14V6Z" fill="currentColor" />
-                      </svg>
-                    </button>
-                    {nstate[index] && (
-                      <div className="mt-1 space-y-1 px-1">
-                        {value.class.map((classWeek, id) => (
-                          <Link href={'/' + getString(classWeek.link)}>
-                            <a
-                              className={`group w-full flex items-center pl-12 pr-2 py-2 text-large leading-5 font-medium ${
-                                JSON.stringify(classWeek.link) ===
-                                JSON.stringify(url)
-                                  ? 'text-gray-900 bg-gray-100'
-                                  : 'text-gray-600'
-                              } rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150`}
-                            >
-                              {classWeek.name}
-                            </a>
-                          </Link>
-                        ))}
-                      </div>
-                    )}
+                    </a>
+
+                    <div className="mt-1 space-y-1 px-1">
+                      {value.class.map((classWeek, id) => (
+                        <Link href={'/' + getString(classWeek.link)}>
+                          <a
+                            className={`group w-full flex items-center pl-8 pr-2 py-2 text-large leading-5 font-medium ${
+                              JSON.stringify(classWeek.link) ===
+                              JSON.stringify(url)
+                                ? 'text-gray-900 bg-gray-100'
+                                : 'text-gray-600'
+                            } rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150`}
+                          >
+                            {classWeek.name}
+                          </a>
+                        </Link>
+                      ))}
+                    </div>
                   </React.Fragment>
                 ))}
               </nav>
@@ -134,35 +115,14 @@ export const Nav = ({ url, children }) => {
               <nav className="mt-5 flex-1 px-2 bg-white space-y-1">
                 {intl.map((value, index) => (
                   <React.Fragment>
-                    <button
-                      className="mt-1 group w-full flex items-center pl-2 pr-1 py-2 text-sm leading-5 font-medium rounded-md bg-white text-gray-600 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150"
-                      onClick={() => {
-                        const newState = [...nstate]
-                        newState[index] = !newState[index]
-                        setNstate(newState)
-                      }}
-                    >
+                    <a className="mt-1 group w-full flex items-center pl-2 pr-1 py-2 text-sm leading-5 font-medium rounded-md bg-white text-gray-600 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150">
                       {value.className}
-                      <svg
-                        className={`${
-                          nstate[index]
-                            ? 'text-gray-400 rotate-90'
-                            : 'text-gray-300'
-                        } ml-auto h-5 w-5 transform group-hover:text-gray-400 group-focus:text-gray-400 transition-colors ease-in-out duration-150`}
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M6 6L14 10L6 14V6Z" fill="currentColor" />
-                      </svg>
-                    </button>
-                    <div
-                      className={`${
-                        !nstate[index] ? 'hidden' : ''
-                      } mt-1 space-y-1 px-1`}
-                    >
+                    </a>
+                    <div className="mt-1 space-y-1 px-1">
                       {value.class.map((classWeek) => (
                         <Link href={'/' + getString(classWeek.link)}>
                           <a
-                            className={`group w-full flex items-center pl-12 pr-2 py-2 text-sm leading-5 font-medium ${
+                            className={`group w-full flex items-center pl-8 pr-2 py-2 text-sm leading-5 font-medium ${
                               JSON.stringify(classWeek.link) ===
                               JSON.stringify(url)
                                 ? 'text-gray-900 bg-gray-100'

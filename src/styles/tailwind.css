@@ -6,3 +6,6 @@
 /* purgecss start ignore */
 @tailwind utilities;
 /* purgecss end ignore */
+.math {
+  font-family: KaTeX_Main, 'Times New Roman', serif !important;
+}

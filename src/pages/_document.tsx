@@ -25,8 +25,8 @@ export default class Document extends NextDocument {
           />
           <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
-            integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq"
+            href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+            integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
             crossOrigin="anonymous"
           />
         </Head>

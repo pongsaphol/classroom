@@ -20,15 +20,17 @@ const Pages = ({ url, html, className, name }) => {
       <Nav url={url}>
         <div className="pt-2 pb-6 md:py-6">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
-            <h1 className="text-3xl font-semibold text-gray-900">
+            <h1 className="text-4xl font-semibold text-gray-900">
               {className}
             </h1>
-            <h1 className="text-2xl font-semibold text-gray-900">{name}</h1>
+            <h1 className="text-3xl font-semibold text-gray-900 mt-4">
+              {name}
+            </h1>
           </div>
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
-            <div className="markdown-style">
+          <div className="flex max-w-5xl mx-auto px-4 sm:px-6 md:px-8 justify-center">
+            <article className="prose lg:prose-lg">
               <div dangerouslySetInnerHTML={{ __html: html }}></div>
-            </div>
+            </article>
           </div>
         </div>
       </Nav>
@@ -51,7 +53,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths: ret.map((id: string[]) => {
       return { params: { id } }
     }),
-    fallback: true,
+    fallback: false,
   }
 }
 
@@ -75,7 +77,12 @@ export const getStaticProps: GetStaticProps = async ({ params: { id } }) => {
       revalidate: 60,
     }
   }
-  const markdown = getMarkdown(getString(['test']))
+  let markdown = ''
+  try {
+    markdown = getMarkdown(getString(id as string[]))
+  } catch {
+    markdown = getMarkdown(getString(['test']))
+  }
   const html = await renderMarkdown(markdown)
   return {
     props: {
