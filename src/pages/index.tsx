@@ -16,15 +16,15 @@ const Index = () => (
             Brewster academy.
           </p>
           <div className="mt-5 max-w-md mx-auto md:mt-8">
-            <div className="rounded-md shadow">
-              {intl.map((value) => (
+            {intl.map((value) => (
+              <div className="rounded-md shadow mb-2">
                 <Link href={`/${value.path}/home`} key={value.path}>
-                  <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 mb-2">
+                  <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                     {value.className}
                   </a>
                 </Link>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </main>
