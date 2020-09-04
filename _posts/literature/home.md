@@ -1,5 +1,5 @@
 ---
-title: 'Lorem ipsum'
+title: 'Home'
 order: '-1'
 ---
 
