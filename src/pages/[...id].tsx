@@ -27,8 +27,8 @@ const Pages = ({ url, html, className, name }) => {
               {name}
             </h1>
           </div>
-          <div className="flex max-w-5xl mx-auto px-4 sm:px-6 md:px-8 justify-center overflow-x-scroll">
-            <article className="prose lg:prose-lg">
+          <div className="flex max-w-5xl mx-auto px-4 sm:px-6 md:px-8 justify-center">
+            <article className="prose lg:prose-lg overflow-x-scroll">
               <div dangerouslySetInnerHTML={{ __html: html }}></div>
             </article>
           </div>
@@ -41,7 +41,7 @@ const Pages = ({ url, html, className, name }) => {
 export default Pages
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const ret = [['test']]
+  const ret = []
 
   intl.forEach((value) => {
     value.class.forEach((data) => {
