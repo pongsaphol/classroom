@@ -142,7 +142,7 @@ export const Nav = ({ url, children, intl }) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-0 flex-1 overflow-hidden">
+        {/* <div className="flex flex-col w-0 flex-1 overflow-hidden">
           <div className="md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3">
             <button
               onClick={() => setShow(true)}
@@ -175,7 +175,7 @@ export const Nav = ({ url, children, intl }) => {
               </p>
             </div>
           </main>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   )
