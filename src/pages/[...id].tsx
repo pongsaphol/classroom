@@ -20,10 +20,10 @@ const Pages = ({ url, html, className, name }) => {
       <Nav url={url}>
         <div className="pt-2 pb-6 md:py-6">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
-            <h1 className="text-4xl font-semibold text-gray-900">
+            <h1 className="text-4xl font-semibold text-gray-900 text-center">
               {className}
             </h1>
-            <h1 className="text-3xl font-semibold text-gray-900 mt-4">
+            <h1 className="text-3xl font-semibold text-gray-900 mt-4 text-center">
               {name}
             </h1>
           </div>
