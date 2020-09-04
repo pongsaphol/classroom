@@ -74,7 +74,10 @@ export const Nav = ({ url, children, intl }) => {
 
                       <div className="mt-1 space-y-1 px-1">
                         {value.class.map((classWeek, id) => (
-                          <Link href={'/' + getString(classWeek.link)}>
+                          <Link
+                            href="/[...id]"
+                            as={'/' + getString(classWeek.link)}
+                          >
                             <a
                               className={`group w-full flex items-center pl-8 pr-2 py-2 text-large leading-5 font-medium ${
                                 JSON.stringify(classWeek.link) ===
@@ -121,7 +124,10 @@ export const Nav = ({ url, children, intl }) => {
                       </a>
                       <div className="mt-1 space-y-1 px-1">
                         {value.class.map((classWeek) => (
-                          <Link href={'/' + getString(classWeek.link)}>
+                          <Link
+                            href="/[...id]"
+                            as={'/' + getString(classWeek.link)}
+                          >
                             <a
                               className={`group w-full flex items-center pl-8 pr-2 py-2 text-sm leading-5 font-medium ${
                                 JSON.stringify(classWeek.link) ===
