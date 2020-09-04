@@ -58,12 +58,12 @@ export const Nav = ({ url, children, intl }) => {
               </button>
             </div> */}
               <div className="flex-1 h-0 pt-5 pb-4 overflow-y-auto">
-                <div className="flex-shrink-0 flex items-center justify-center px-4 h-16">
-                  {/* <img
+                <div className="flex-shrink-0 flex items-center justify-center px-4">
+                  <img
                     className="h-16 w-auto"
                     src="https://upload.wikimedia.org/wikipedia/en/1/16/Brewster_Academy_2018_Emblem.jpg"
                     alt="Workflow"
-                  /> */}
+                  />
                 </div>
                 <nav className="mt-5 px-2 space-y-1">
                   {intl.map((value, index) => (
@@ -74,10 +74,7 @@ export const Nav = ({ url, children, intl }) => {
 
                       <div className="mt-1 space-y-1 px-1">
                         {value.class.map((classWeek, id) => (
-                          <Link
-                            href="/[...id]"
-                            as={'/' + getString(classWeek.link)}
-                          >
+                          <Link href={'/' + getString(classWeek.link)}>
                             <a
                               className={`group w-full flex items-center pl-8 pr-2 py-2 text-large leading-5 font-medium ${
                                 JSON.stringify(classWeek.link) ===
@@ -109,12 +106,12 @@ export const Nav = ({ url, children, intl }) => {
             {/* <!-- Sidebar component, swap this element with another sidebar if you like --> */}
             <div className="flex flex-col h-0 flex-1 border-r border-gray-200 bg-white">
               <div className="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
-                <div className="flex items-center flex-shrink-0 px-4 justify-center h-16">
-                  {/* <img
+                <div className="flex items-center flex-shrink-0 px-4 justify-center ">
+                  <img
                     className="h-16 w-auto"
                     src="https://upload.wikimedia.org/wikipedia/en/1/16/Brewster_Academy_2018_Emblem.jpg"
                     alt="Workflow"
-                  /> */}
+                  />
                 </div>
                 <nav className="mt-5 flex-1 px-2 bg-white space-y-1">
                   {intl.map((value, index) => (
@@ -124,10 +121,7 @@ export const Nav = ({ url, children, intl }) => {
                       </a>
                       <div className="mt-1 space-y-1 px-1">
                         {value.class.map((classWeek) => (
-                          <Link
-                            href="/[...id]"
-                            as={'/' + getString(classWeek.link)}
-                          >
+                          <Link href={'/' + getString(classWeek.link)}>
                             <a
                               className={`group w-full flex items-center pl-8 pr-2 py-2 text-sm leading-5 font-medium ${
                                 JSON.stringify(classWeek.link) ===
