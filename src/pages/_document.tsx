@@ -31,6 +31,10 @@ export default class Document extends NextDocument {
           />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link
+            rel="apple-touch-icon"
+            href="https://upload.wikimedia.org/wikipedia/en/1/16/Brewster_Academy_2018_Emblem.jpg"
+          />
           <link rel="manifest" href="/manifest.json" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-title" content="Brewster" />

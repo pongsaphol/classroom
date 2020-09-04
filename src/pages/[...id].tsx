@@ -16,7 +16,6 @@ interface Data {
 
 const Pages = (props: Data) => {
   const { url, html, className, name, intl } = props
-  return <div />
   if (url === [] || url === undefined) {
     return (
       <Nav url={[]} intl={intl}>
