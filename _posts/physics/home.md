@@ -12,3 +12,5 @@ Methods of [calculus](https://en.wikipedia.org/wiki/Calculus) are used wherever 
 The course consists of two parts: Mechanics, and Electricity & Magnetism.
 
 [Introduction to Physics](https://www.youtube.com/watch?v=PUZkE1vIvIA)
+
+[Class Expection](https://brewster.instructure.com/courses/744/pages/class-expectations)
