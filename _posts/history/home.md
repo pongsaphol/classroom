@@ -3,12 +3,32 @@ title: 'Home'
 order: '-1'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus tempor mi vitae tristique. Fusce sed justo vitae ipsum placerat mollis eget vel ipsum. Maecenas vel lacus consequat mi rhoncus condimentum. In varius nunc mauris, quis interdum augue tempus nec. Aliquam ut nunc quam. Donec sollicitudin nisl id lorem efficitur, quis vestibulum magna congue. Vivamus quis mollis risus. Ut rutrum ex luctus dolor faucibus, sed finibus dolor bibendum. Donec massa eros, scelerisque in est malesuada, dictum molestie ex. Integer vel lobortis sem, sed feugiat quam. Sed consectetur pretium metus non auctor. Phasellus mattis ex eros, at vestibulum nulla convallis eu. Sed diam mauris, iaculis at sollicitudin at, pretium id neque. Sed consectetur pellentesque nulla sit amet pretium. Nulla semper justo nibh, quis auctor est placerat at.
+### Course Description
 
-Nam commodo at ex quis maximus. Nulla at sollicitudin leo. Integer vel finibus mauris. Sed pretium massa sed libero mollis tempus. Nunc vitae aliquam felis. Donec suscipit tristique tellus, at suscipit tellus condimentum eget. In tempus sodales vehicula. Phasellus est velit, iaculis at commodo eget, sagittis quis mauris. Sed fringilla felis ac odio tincidunt commodo.
+This course approaches the study of the past through the use of four distinct and interrelated disciplines: history, geography, economics, and civics. Skills from each sub-discipline will help students understand the topics, themes, places, and events that the course covers. Students will learn about civic ideals from Ancient China, Babylonia, and Greece. They will compare those ideas. They will see how Judaism, Christianity, and Islam spread in the ancient world and how that has affected the modern world. Students will learn about what allows empires to develop and what causes them to fall. Students will also read a book of history or historical fiction.
 
-Nulla facilisi. Praesent maximus magna arcu, ac interdum nisl tincidunt et. Curabitur sem eros, pharetra accumsan viverra nec, rutrum non diam. Pellentesque quis ullamcorper augue, ac egestas nulla. Fusce hendrerit tortor vel nisl posuere aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc non orci maximus, dapibus arcu ac, efficitur enim. Nam sed turpis in massa aliquet varius nec in quam. Ut eget euismod tellus, vel interdum elit. Suspendisse vel posuere felis. In vel sapien massa. Morbi a urna id mi sodales posuere.
+[Syllabus](https://brewster.instructure.com/courses/812/files/63243/download?wrap=1)
 
-Quisque id turpis blandit, iaculis urna at, pretium felis. Donec tincidunt mi odio, id sagittis nulla congue vitae. Aliquam in porttitor sapien. Proin semper ultrices leo, nec posuere lorem dapibus a. Quisque fermentum volutpat euismod. Sed massa nisl, convallis vitae mi eu, porta pulvinar dolor. Vivamus id urna mauris. Vestibulum condimentum dolor quis gravida porttitor.
+[Class Expections](https://docs.google.com/document/d/1-xGQnBuTuZ0AkBZyY4EBoPV1C0EchUw_iRcVX8LW88o/edit)
 
-Quisque feugiat mauris a tempus semper. Donec gravida feugiat ipsum, non gravida nisl feugiat non. Suspendisse tempor sodales sollicitudin. Suspendisse at urna non eros faucibus imperdiet id eget diam. Sed sit amet varius tellus, gravida pharetra ipsum. Aliquam erat volutpat. Cras nec est dapibus libero tristique faucibus in sed odio. Aenean nec lectus vel urna efficitur bibendum non in purus. Suspendisse quis tellus eget leo viverra iaculis. Mauris consequat odio diam, eget ultricies purus rutrum vel. Mauris eleifend aliquet malesuada. Vivamus eros libero, tristique at risus dapibus, facilisis semper est. Vivamus facilisis rutrum arcu, ut vehicula lectus tempus at.
+[Link to Overall Agenda](https://docs.google.com/document/d/1ZwJ1FXGUnZ7Lmq3lydU4_23pR6fKRsCHCkCvgymtTYM/edit?pli=1)
+
+### Module 1: History Disciplines
+
+#### Module Description:
+
+During this module, you will gain an understanding of the four disciplines to help you think like a historian. The four disciplines are history, geography, civics, and economics.
+
+#### Enduring Understandings:
+
+- U1 History investigates change over time in order to answer questions that will help one understand the past.
+- U2 When Civics is applied to a group of people it can shape the way in which people participate in an organized society.
+- U3 The focus on geography in a region can inform us about how and why civilizations developed in certain places.
+- U4 Societies make decisions based on how they want to allocate human capital, physical capital, and natural resources.
+
+#### Essential Questions:
+
+1. What tools do we use to study history?
+2. What principles are used to inform decisions for the people in a society
+3. What geography skills do we use to study a place in the world?
+4. What economic principles help us understand the decisions that leaders make throughout history?
