@@ -88,12 +88,7 @@ export const getStaticProps: GetStaticProps = async ({ params: { id } }) => {
       revalidate: 60,
     }
   }
-  let markdown = ''
-  try {
-    markdown = getMarkdown(getString(id as string[])).content as string
-  } catch {
-    markdown = getMarkdown(getString(['test'])).content as string
-  }
+  const markdown = getMarkdown(getString(id as string[])).content as string
   const html = await renderMarkdown(markdown)
   return {
     props: {

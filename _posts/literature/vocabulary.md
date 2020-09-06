@@ -1,7 +1,11 @@
 ---
 title: 'Vocabulary'
-order: '100'
+order: '0'
 ---
+
+[Link](https://docs.google.com/spreadsheets/d/1o1L-GHEAS4RSgR1p0Kf-g5Y2FWBBofTnP3frsEDARuI/edit#gid=0) to original vocabulary
+
+[Link](https://docs.google.com/spreadsheets/d/1sRwO0xl1VAW-ICe6qFsqrfaetWl8sqN9glcVEop9yVY/edit#gid=0) to my vocabulary
 
 | #   | Word     | Part of Speech | Define\*                                                                                                                        | Write a Sentence                                                        | 3 Synonyms (same)\*                                    | 3 Antonyms (opposite)            |
 | --- | -------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------- |
