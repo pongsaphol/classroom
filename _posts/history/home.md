@@ -9,9 +9,9 @@ This course approaches the study of the past through the use of four distinct an
 
 [Syllabus](https://brewster.instructure.com/courses/812/files/63243/download?wrap=1)
 
-[Class Expections](https://docs.google.com/document/d/1-xGQnBuTuZ0AkBZyY4EBoPV1C0EchUw_iRcVX8LW88o/edit)
+[Class Expectations](https://docs.google.com/document/d/1-xGQnBuTuZ0AkBZyY4EBoPV1C0EchUw_iRcVX8LW88o/edit)
 
-[Link to Overall Agenda](https://docs.google.com/document/d/1ZwJ1FXGUnZ7Lmq3lydU4_23pR6fKRsCHCkCvgymtTYM/edit?pli=1)
+[Overall Agenda](https://docs.google.com/document/d/1ZwJ1FXGUnZ7Lmq3lydU4_23pR6fKRsCHCkCvgymtTYM/edit?pli=1)
 
 ### Module 1: History Disciplines
 
