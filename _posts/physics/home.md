@@ -14,3 +14,6 @@ The course consists of two parts: Mechanics, and Electricity & Magnetism.
 [Introduction to Physics](https://www.youtube.com/watch?v=PUZkE1vIvIA)
 
 [Class Expection](https://brewster.instructure.com/courses/744/pages/class-expectations)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MzQ1NTMxMjFdfQ==
+-->
