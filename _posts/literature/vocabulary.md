@@ -15,3 +15,6 @@ order: '100'
 | 8.  | Envy     | adjective      | a feeling of discontented or resentful longing aroused by someone else's possessions, qualities, or luck.                       | She felt a twinge of envy for the people on board                       | jealously, desire, resentment                          | generosity                       |
 | 9.  | Infer    | verb           | deduce or conclude (information) from evidence and reasoning rather than from explicit statements.                              | From these facts we can infer that crime has been increasing            | deduce, reason, work out                               | abstain, disbelieve, neglect     |
 | 10. | Quirk    | noun           | a peculiar behavioral habit.                                                                                                    | His distaste for travel is an endearing quirk                           | idiosyncrasy, peculiarity, oddity                      | normality, usualness, inability. |
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzc5MzI2Mjk1XX0=
+-->
