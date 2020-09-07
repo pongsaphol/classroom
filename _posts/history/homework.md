@@ -21,3 +21,14 @@ Use [Easy Bib](https://www.easybib.com/) to cite your source
 **Link**
 
 This is [the link](https://docs.google.com/document/d/1gz51wJZdfMnDeDSj1mYOYZE5u1osexgInWwbOej2fY8/edit) to the assignment
+
+**Homework H1113 - Contextualization**
+
+[Link to homework page](https://brewster.instructure.com/courses/812/assignments/14533)
+
+Read the passage talking about revolution of France and answer the question
+
+1. When did it happen?
+2. Where did it happen?
+3. What led to it?
+4. Why did it happen at that time (not earlier or later)?
