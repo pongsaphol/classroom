@@ -18,6 +18,78 @@ order: '0'
 | 9.  | Infer    | verb           | deduce or conclude (information) from evidence and reasoning rather than from explicit statements.                              | From these facts we can infer that crime has been increasing            | deduce, reason, work out                               | abstain, disbelieve, neglect     |
 | 10. | Quirk    | noun           | a peculiar behavioral habit.                                                                                                    | His distaste for travel is an endearing quirk                           | idiosyncrasy, peculiarity, oddity                      | normality, usualness, inability. |
 
+|1. | Advocate | verb
+|2. | Analogy  | 
+|3. | Bizarre  | adjective
+|4. | Callous  | adjective
+|5. |
+|6. | Equinox  | noun
+|7. | Haggle   | verb
+|8. | Pensive  | adj
+|9. | Reek     | verb
+|10.|    | adj
+
+wary
+
+very cautious
+
+I should be wary when I solve the problem.
+
+volatile
+
+likely to change rapidly and be unpredictable 
+
+the political situation in Thailand has been volatile
+
+ruse
+
+a trick
+
+I use a ruse to get the money from the bank.
+
+tremor
+
+an uncontrollable shake or twitch
+
+retrieve
+
+to get something back
+
+I retrieve data from the server.
+
+
+defuse
+
+to reduce anger in a situation
+
+he defuses tense moments using humor.
+
+
+procrastinate
+
+to put off or to delay
+
+
+practical
+
+useful
+
+
+mortified
+
+she was mortified to see her body in the mirror.
+
+embarrassed
+
+
+metropolis
+
+a large city
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzc5MzI2Mjk1XX0=
+-->
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzc5MzI2Mjk1XX0=
 -->
