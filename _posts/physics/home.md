@@ -20,5 +20,5 @@ The course consists of two parts: Mechanics, and Electricity & Magnetism.
 [Link to class material](https://drive.google.com/drive/u/1/folders/1Zs1E6un9JJxJlF-XoCbqK2qpvBvV-OmW)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ1NTMxMjFdfQ==
+eyJoaXN0b3J5IjpbMTQyMjgyODYwNiwtMTkzNDU1MzEyMV19
 -->
